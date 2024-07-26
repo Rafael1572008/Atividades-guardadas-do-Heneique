@@ -6,11 +6,15 @@ colunas: id, nome, senha, placa da vassoura, permissões, strike, "raça"
 2.produtos: id, nome, tipo(feitiço, encantamento, poção, etc), elemento, quem registrou(id_r), tipo, origem/fonte
 
 2.1 poções
+--id, nome, elemento, efeito, decrição, dimenssões
 
 2.2 feitiço
+--id, nome, efeito, descrição
 
 2.3 objetos
+--id, nome, dimenssão, descrição
 
 2.4. encantamentos
+--id, nome, 
 
-2. 
+2.5 
