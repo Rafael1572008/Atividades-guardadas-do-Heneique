@@ -1,20 +1,35 @@
-1. Usuario
+curso1) Aluno, Turma, Disciplina, Prof, curso
 
-colunas: id, nome, senha, placa da vassoura, permissões, strike, "raça"
+2)Aluno:
+- id (pk)
+- nome
+- data de nascimento
+- prontuario
+- cpf 
+- id_curso (fk)
 
+Turma:
+- id_turma (pk)
+- id (fk)
+- id_curso (fk)
 
-2.produtos: id, nome, tipo(feitiço, encantamento, poção, etc), elemento, quem registrou(id_r), tipo, origem/fonte
+Disciplina:
+- id_disciplina (pk)
+- nome
+- id_curso
+- id_prof (fk)
 
-2.1 poções
---id, nome, elemento, efeito, decrição, dimenssões
+Professor:
+- id_prof (pk)
+- salário
+- id_disciplina (fk)
+- cpf
 
-2.2 feitiço
---id, nome, efeito, descrição
+Curso:
+- id_curso (pk)
+- id_professor (fk)
+- id_disciplinas (fk)
+- duração
+- data de início
 
-2.3 objetos
---id, nome, dimenssão, descrição
-
-2.4. encantamentos
---id, nome, 
-
-2.5 
+ 
